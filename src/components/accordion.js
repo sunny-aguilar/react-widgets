@@ -13,7 +13,7 @@ const Accordion = ({ items }) => {
   // const things = useState(null);
   // const activeIndex = things[0];
   // const seActiveIndex = things[1];
- /
+ //
   // helper function inside functional component
   const onTitleClick = index => {
     setActiveIndex(index);
