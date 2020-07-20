@@ -1,11 +1,13 @@
 // { useState } is to use Hooks
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 const Accordion = ({ items }) => {
+  const [activeIndex, setActiveIndex] = useState(null);
+
   // helper function inside functional component
-  const onTitleClick = index => {
-    console.log('Title clicked ', index);
-  }
+  const onTitleClick = (index) => {
+    console.log("Title clicked ", index);
+  };
 
   const renderedItems = items.map((item, index) => {
     return (
@@ -14,7 +16,9 @@ const Accordion = ({ items }) => {
           className="title active"
           // must wrap onTitleClick(index) with arrow function othersise
           // it is invoked on rendering
-          onClick={() => {onTitleClick(index)}}
+          onClick={() => {
+            onTitleClick(index);
+          }}
         >
           <i className="dropdown icon"></i>
           {item.title}
