@@ -1,4 +1,5 @@
-import React from "react";
+// { useState } is to use Hooks
+import React, {useState} from "react";
 
 const Accordion = ({ items }) => {
   // helper function inside functional component
