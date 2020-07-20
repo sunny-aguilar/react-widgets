@@ -7,6 +7,7 @@ const Accordion = ({ items }) => {
   // useState(null) returns an array with two items
   const [activeIndex, setActiveIndex] = useState(null);
   const things = useState(null);
+  const activeIndex = things[0];
 
   // helper function inside functional component
   const onTitleClick = index => {
