@@ -3,7 +3,7 @@ import React from "react";
 const Accordion = ({items}) => {
   const renderedItems = items.map(item => {
     return (
-      <div>
+      <div key={iteml.title}>
         <div className="title active">
           <i className="dropdown icion"></i>
           {item.title}
