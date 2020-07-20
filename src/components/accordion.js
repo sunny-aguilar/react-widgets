@@ -6,7 +6,7 @@ const Accordion = ({ items }) => {
   // array destructuring
   // useState(null) returns an array with two items
   // activeIndex -> variable we are tracking (var name can be anything)
-  // setActiveIndex -> update variable (like a setter)
+  // setActiveIndex -> update variable (like a setter) (var name can be anything)
   // (null) is the initial value/state of the variable
   const [activeIndex, setActiveIndex] = useState(null);
   // here is what above looks like written w/o array destructuring
