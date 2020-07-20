@@ -2,6 +2,9 @@ import React from "react";
 
 const Accordion = ({ items }) => {
   // helper function
+  const onTitleClick = () => {
+
+  }
 
   const renderedItems = items.map((item, index) => {
     return (
