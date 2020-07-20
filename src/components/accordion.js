@@ -5,7 +5,7 @@ const Accordion = ({ items }) => {
     return (
       <React.Fragment key={items.title}>
         <div className="title active">
-          <i className="dropdown icion"></i>
+          <i className="dropdown icon"></i>
           {item.title}
         </div>
         <div className="content active">
