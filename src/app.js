@@ -3,5 +3,9 @@ import Accordion from "./components/Accordion.js"
 
 
 export default () => {
-  return <Accordion />;
+  return (
+    <div>
+      <Accordion />
+    </div>
+  );
 }
