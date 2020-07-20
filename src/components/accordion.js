@@ -5,8 +5,8 @@ const Accordion = ({ items }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   // helper function inside functional component
-  const onTitleClick = (index) => {
-    console.log("Title clicked ", index);
+  const onTitleClick = index => {
+    setActiveIndex(index);
   };
 
   const renderedItems = items.map((item, index) => {
