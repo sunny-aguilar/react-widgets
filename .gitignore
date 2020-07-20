@@ -25,3 +25,4 @@ yarn-error.log*
 # Ignore artifacts:
 build
 coverage
+.prettierrc.json
