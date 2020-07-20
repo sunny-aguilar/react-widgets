@@ -6,6 +6,7 @@ const Accordion = ({ items }) => {
   // array destructuring
   // useState(null) returns an array with two items
   const [activeIndex, setActiveIndex] = useState(null);
+  // here is what above looks like written w/o array destructuring
   // const things = useState(null);
   // const activeIndex = things[0];
   // const seActiveIndex = things[1];
