@@ -6,9 +6,9 @@ const Accordion = ({ items }) => {
     console.log('Title clicked ', index);
   }
 
-  const renderedItems = items.map((item, index) => {
+  const renderedItems = item.map((item, index) => {
     return (
-      <React.Fragment key={items.title}>
+      <React.Fragment key={item.title}>
         <div
           className="title active"
           // must wrap onTitleClick(index) with arrow function othersise
