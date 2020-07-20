@@ -7,6 +7,7 @@ const Accordion = ({ items }) => {
   // useState(null) returns an array with two items
   // activeIndex -> variable we are tracking
   // setActiveIndex -> update variable (like a setter)
+  // (null) is the default value/state of the variable
   const [activeIndex, setActiveIndex] = useState(null);
   // here is what above looks like written w/o array destructuring
   // const things = useState(null);
