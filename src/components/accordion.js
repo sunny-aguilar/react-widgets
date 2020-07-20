@@ -1,5 +1,6 @@
 // { useState } is to use Hooks
 import React, { useState } from "react";
+import { act } from "react-dom/test-utils";
 
 const Accordion = ({ items }) => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -30,7 +31,7 @@ const Accordion = ({ items }) => {
     );
   });
 
-  return <div className="ui styled accordion">{renderedItems}</div>;
+return <div className="ui styled accordion">{renderedItems}<h1>{activeIndex}</h1></div>;
 };
 
 export default Accordion;
