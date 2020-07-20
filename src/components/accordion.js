@@ -1,7 +1,7 @@
 import React from "react";
 
 const Accordion = ({ items }) => {
-  // helper function
+  // helper function inside functional component
   const onTitleClick = index => {
     console.log('Title clicked ', index);
   }
