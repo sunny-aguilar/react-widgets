@@ -5,6 +5,8 @@ import { act } from "react-dom/test-utils";
 const Accordion = ({ items }) => {
   // array destructuring
   // useState(null) returns an array with two items
+  // activeIndex -> variable we are tracking
+  // setActiveIndex -> update variable (like a setter)
   const [activeIndex, setActiveIndex] = useState(null);
   // here is what above looks like written w/o array destructuring
   // const things = useState(null);
