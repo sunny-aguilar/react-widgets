@@ -4,6 +4,7 @@ import { act } from "react-dom/test-utils";
 
 const Accordion = ({ items }) => {
   // array destructuring
+  // useState(null)
   const [activeIndex, setActiveIndex] = useState(null);
 
   // helper function inside functional component
