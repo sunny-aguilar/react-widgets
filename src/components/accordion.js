@@ -5,7 +5,7 @@ import { act } from "react-dom/test-utils";
 const Accordion = ({ items }) => {
   // array destructuring
   // useState(null) returns an array with two items
-  // activeIndex -> variable we are tracking
+  // activeIndex -> variable we are tracking (var name can be anything)
   // setActiveIndex -> update variable (like a setter)
   // (null) is the initial value/state of the variable
   const [activeIndex, setActiveIndex] = useState(null);
