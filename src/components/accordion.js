@@ -3,7 +3,7 @@ import React from "react";
 const Accordion = ({items}) => {
   const renderedItems = items.map(item => {
     return (
-      <div key={iteml.title}>
+      <div key={items.title}>
         <div className="title active">
           <i className="dropdown icion"></i>
           {item.title}
@@ -14,7 +14,12 @@ const Accordion = ({items}) => {
       </div>
     );
   });
-  return <div>{items.length}</div>;
+
+  return (
+    <div className="ui styled accordion">
+      {renderedItems}
+    </div>
+  );
 };
 
 export default Accordion;
