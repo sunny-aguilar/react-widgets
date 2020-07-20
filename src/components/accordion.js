@@ -6,7 +6,7 @@ const Accordion = ({ items }) => {
     console.log('Title clicked ', index);
   }
 
-  const renderedItems = item.map((item, index) => {
+  const renderedItems = items.map((item, index) => {
     return (
       <React.Fragment key={item.title}>
         <div
