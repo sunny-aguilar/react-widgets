@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const Search = () => {
   const [term, setTerm] = useState("");
-
+  console.log("I run with every render");
   // useEffect hook that takes two parameters: a function, and optional second param
   // that determines when the function is run
   useEffect(() => {
