@@ -8,7 +8,7 @@ const Search = () => {
   // that determines when the function is run
   useEffect(() => {
     //
-  }, [term]);
+  );
 
   return (
     <div>
