@@ -4,7 +4,7 @@ const Search = () => {
   return (
     <div>
       <div className="ui form">
-        <div classNam="field">
+        <div className="field">
           <label>Enter Search Term</label>
           <input className="input" />
         </div>
