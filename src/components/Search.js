@@ -3,7 +3,8 @@ import React, { useState, useEffect } from "react";
 const Search = () => {
   const [term, setTerm] = useState("");
 
-  // useEffect hook that takes two parameters
+  // useEffect hook that takes two parameters: a function, and optional second param
+  
   useEffect(() => {
     console.log("adfasdf");
   }, [term]);
