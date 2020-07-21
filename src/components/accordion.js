@@ -28,7 +28,7 @@ const Accordion = ({ items }) => {
     return (
       <React.Fragment key={item.title}>
         <div
-          className={`title`}
+          className="title"
           // must wrap onTitleClick(index) with arrow function othersise
           // it is invoked on rendering
           onClick={() => {
