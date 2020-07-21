@@ -6,7 +6,7 @@ const Search = () => {
   // useEffect hook that takes two parameters: a function, and optional second param
   // that determines when the function is run
   useEffect(() => {
-    console.log("I run after every render");
+    console.log("I run after every render and at initial render");
   });
 
   return (
