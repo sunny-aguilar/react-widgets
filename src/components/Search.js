@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
 
 const Search = () => {
+  const [term, setTerm] = useState("");
   return (
     <div>
       <div className="ui form">
