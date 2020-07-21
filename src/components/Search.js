@@ -10,7 +10,7 @@ const Search = () => {
     // make GET request
     const search = async () => {
       await axios.get("https://en.wikipedia.org/w/api.php", {
-        
+        params: {}
       });
     };
     search();
