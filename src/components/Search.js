@@ -9,7 +9,7 @@ const Search = () => {
   useEffect(() => {
     // make GET request
     const search = async () => {
-      await axios.get();
+      await axios.get("");
     };
   }, [term]);
 
