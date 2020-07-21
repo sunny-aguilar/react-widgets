@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 const Search = () => {
   const [term, setTerm] = useState("");
@@ -12,6 +12,6 @@ const Search = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Search;

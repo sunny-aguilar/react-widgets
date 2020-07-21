@@ -17,13 +17,13 @@ const Accordion = ({ items }) => {
   // helper function inside functional component
   // React re-renders the page whenever a setter hook functions updates
   // a state variable
-  const onTitleClick = index => {
+  const onTitleClick = (index) => {
     setActiveIndex(index);
   };
 
   const renderedItems = items.map((item, index) => {
     // compare activeIndex with index and active class to element if equal
-    const active = index === activeIndex ? "active" : '';
+    const active = index === activeIndex ? "active" : "";
 
     return (
       <React.Fragment key={item.title}>
@@ -45,7 +45,7 @@ const Accordion = ({ items }) => {
     );
   });
 
-return <div className="ui styled accordion">{renderedItems}</div>;
+  return <div className="ui styled accordion">{renderedItems}</div>;
 };
 
 export default Accordion;
