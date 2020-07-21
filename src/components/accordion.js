@@ -28,7 +28,7 @@ const Accordion = ({ items }) => {
     return (
       <React.Fragment key={item.title}>
         <div
-          className={`title ${active}`}
+          className={`title`}
           // must wrap onTitleClick(index) with arrow function othersise
           // it is invoked on rendering
           onClick={() => {
@@ -38,7 +38,7 @@ const Accordion = ({ items }) => {
           <i className="dropdown icon"></i>
           {item.title}
         </div>
-        <div className="content">
+        <div className="content ${active}">
           <p>{item.content}</p>
         </div>
       </React.Fragment>
