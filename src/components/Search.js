@@ -6,12 +6,12 @@ const Search = () => {
 
   // useEffect hook that takes two parameters: a function, and optional second param
   // that determines when the function is run
-  useEffect(() => {
+  useEffect(async () => {
     // make GET request
+    await axios("");
 
 
-
-  , [term]);
+  }, [term]);
 
   return (
     <div>
