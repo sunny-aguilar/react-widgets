@@ -3,9 +3,10 @@ import React, { useState, useEffect } from "react";
 const Search = () => {
   const [term, setTerm] = useState("");
 
+  // useEffect hook that takes two parameters
   useEffect(() => {
-    console.log("DD");
-  });
+    console.log("adfasdf");
+  }, [term]);
 
   return (
     <div>
