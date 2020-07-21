@@ -11,6 +11,7 @@ const Search = () => {
     const search = async () => {
       await axios.get("");
     };
+    search();
   }, [term]);
 
   return (
