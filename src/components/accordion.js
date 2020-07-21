@@ -13,8 +13,10 @@ const Accordion = ({ items }) => {
   // const things = useState(null);
   // const activeIndex = things[0];
   // const seActiveIndex = things[1];
-  // aasaasdfas
+
   // helper function inside functional component
+  // React re-renders the page whenever a setter hook functions updates 
+  // a state variable
   const onTitleClick = index => {
     setActiveIndex(index);
   };
