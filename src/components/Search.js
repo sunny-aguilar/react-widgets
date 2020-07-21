@@ -7,7 +7,7 @@ const Search = () => {
   // that determines when the function is run
   useEffect(() => {
     console.log("I run after every render and at initial render");
-  });
+  }, [term]);
 
   return (
     <div>
