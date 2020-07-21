@@ -3,11 +3,11 @@ import axios from "axios";
 
 const Search = () => {
   const [term, setTerm] = useState("");
-  console.log("I run with every render");
+
   // useEffect hook that takes two parameters: a function, and optional second param
   // that determines when the function is run
   useEffect(() => {
-    console.log("I run after every render and at initial render");
+    //
   }, [term]);
 
   return (
