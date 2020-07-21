@@ -8,7 +8,9 @@ const Search = () => {
   // that determines when the function is run
   useEffect(() => {
     // make GET request
-    axios("");
+    const search = async () => {
+      await axios.get();
+    };
   }, [term]);
 
   return (
