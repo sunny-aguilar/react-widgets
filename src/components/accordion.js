@@ -22,6 +22,7 @@ const Accordion = ({ items }) => {
   };
 
   const renderedItems = items.map((item, index) => {
+    // compare activeIndex with index and active class to element if equal
     const active = index === activeIndex ? "active" : '';
 
     return (
