@@ -6,7 +6,7 @@ const Search = () => {
       <div className="ui form">
         <div className="field">
           <label>Enter Search Term</label>
-          <input className="input" />
+          <input className="input" type="text" />
         </div>
       </div>
     </div>
