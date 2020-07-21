@@ -8,7 +8,7 @@ const Accordion = ({ items }) => {
   // activeIndex -> variable we are tracking (var name can be anything we want)
   // setActiveIndex -> updates state variable (like a setter) (var function name can be anything)
   // (null) is the initial value/state of the variable
-  const [activeIndex, setActiveIndex] = useState(null); // use state hook
+  const [activeIndex, setActiveIndex] = useState(null); // useState hook
   // here is what above looks like written w/o array destructuring
   // const things = useState(null);
   // const activeIndex = things[0];
