@@ -21,6 +21,7 @@ const Search = () => {
     search();
   }, [term]);
 
+
   return (
     <div>
       <div className="ui form">
