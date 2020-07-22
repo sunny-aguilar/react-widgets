@@ -29,8 +29,9 @@ const Search = () => {
       <div className="item">
         <div className="content">
           <div className="header">
-
+            {result.title}
           </div>
+          {result.snippet}
         </div>
       </div>
     );
