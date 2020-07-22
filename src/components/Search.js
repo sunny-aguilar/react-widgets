@@ -4,7 +4,7 @@ import axios from "axios";
 const Search = () => {
   const [term, setTerm] = useState("");       // initial value is empty string
   const [results, setResults] = useState([]); // initial value is empty array
-
+  console.log(results);
   // useEffect hook that takes two parameters: a function, and optional second param
   // that determines when the function is run
   useEffect(() => {
