@@ -28,7 +28,7 @@ const Search = () => {
     return (
       <div className="item">
         <div className="content">
-          <div>
+          <div className="header">
 
           </div>
         </div>
