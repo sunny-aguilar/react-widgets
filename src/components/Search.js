@@ -19,7 +19,7 @@ const Search = () => {
           srsearch: term
         }
       });
-      setResults(data);
+      setResults(data.query.search);
     };
 
     search();
