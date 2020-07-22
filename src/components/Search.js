@@ -19,6 +19,9 @@ const Search = () => {
         }
       });
     };
+
+
+    
     search();
   }, [term]);
 
