@@ -21,6 +21,7 @@ const Search = () => {
       setResults(data);
     };
 
+    // check if term is defined before searching
     if (term) {
       search();
     }
