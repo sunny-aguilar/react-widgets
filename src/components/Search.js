@@ -24,6 +24,7 @@ const Search = () => {
     if (term) {
       search();
     }
+
   }, [term]);
 
 
