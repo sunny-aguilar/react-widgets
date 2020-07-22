@@ -50,6 +50,9 @@ const Search = () => {
           />
         </div>
       </div>
+      <div className="ui celled list">
+        {renderedResults}
+      </div>
     </div>
   );
 };
