@@ -24,6 +24,17 @@ const Search = () => {
     search();
   }, [term]);
 
+  const renderedResults = results.map((result) => {
+    return (
+      <div className="item">
+        <div>
+          <div>
+
+          </div>
+        </div>
+      </div>
+    );
+  });
 
   return (
     <div>
