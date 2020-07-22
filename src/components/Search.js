@@ -27,7 +27,7 @@ const Search = () => {
   const renderedResults = results.map((result) => {
     return (
       <div className="item">
-        <div>
+        <div className="content">
           <div>
 
           </div>
