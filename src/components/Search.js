@@ -3,7 +3,7 @@ import axios from "axios";
 
 const Search = () => {
   const [term, setTerm] = useState("");
-  const [results, setResults] = 
+  const [results, setResults] = ;
 
   // useEffect hook that takes two parameters: a function, and optional second param
   // that determines when the function is run
