@@ -15,15 +15,14 @@ const Search = () => {
           action: "query",
           list: "search",
           origin: "*",
+          format: 'json',
           srsearch: term
         }
       });
       setResults(data);
     };
 
-
     search();
-
   }, [term]);
 
 
