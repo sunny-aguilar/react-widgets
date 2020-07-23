@@ -23,8 +23,8 @@ const Search = () => {
     };
 
     setTimeout( () => {
-      
-    });
+
+    }, 500);
     if (term) {
       search();
     }
