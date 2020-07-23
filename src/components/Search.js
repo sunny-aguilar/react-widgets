@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const Search = () => {
-  const [term, setTerm] = useState("programming");       // initial value is empty string
+  const [term, setTerm] = useState("programming"); // initial value is empty string
   const [results, setResults] = useState([]); // initial value is empty array
 
   // useEffect hook that takes two parameters: a function, and optional second param
@@ -15,9 +15,9 @@ const Search = () => {
           action: "query",
           list: "search",
           origin: "*",
-          format: 'json',
-          srsearch: term
-        }
+          format: "json",
+          srsearch: term,
+        },
       });
       setResults(data.query.search);
     };
@@ -28,11 +28,9 @@ const Search = () => {
     return (
       <div key={result.pageid} className="item">
         <div className="content">
-          <div className="header">
-            {result.title}
-          </div>
+          <div className="header">{result.title}</div>
           {/* do not use this! */}
-          <span dangerouslySetInnerHTML={{__html: result.snippet}}></span>
+          <span dangerouslySetInnerHTML={{ __html: result.snippet }}></span>
         </div>
       </div>
     );
@@ -51,9 +49,7 @@ const Search = () => {
           />
         </div>
       </div>
-      <div className="ui celled list">
-        {renderedResults}
-      </div>
+      <div className="ui celled list">{renderedResults}</div>
     </div>
   );
 };
