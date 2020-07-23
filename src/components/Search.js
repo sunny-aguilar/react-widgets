@@ -22,6 +22,9 @@ const Search = () => {
       setResults(data.query.search);
     };
 
+    setTimeout( () => {
+      
+    });
     if (term) {
       search();
     }
