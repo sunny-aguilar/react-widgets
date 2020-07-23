@@ -26,7 +26,7 @@ const Search = () => {
       if (term) {
         search();
       }
-    }, 1000);
+    },800);
 
 
   }, [term]);
