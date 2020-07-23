@@ -28,6 +28,9 @@ const Search = () => {
       }
     },800);
 
+    return () => {
+
+    };
 
   }, [term]);
 
