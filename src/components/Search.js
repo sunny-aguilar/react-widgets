@@ -27,9 +27,9 @@ const Search = () => {
         search();
       }
     },800);
-    clearTimeout(timeoutId);
-    return () => {
 
+    return () => {
+      clearTimeout(timeoutId);
     };
 
   }, [term]);
