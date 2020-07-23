@@ -23,11 +23,11 @@ const Search = () => {
     };
 
     setTimeout( () => {
-
+      if (term) {
+        search();
+      }
     }, 500);
-    if (term) {
-      search();
-    }
+
 
   }, [term]);
 
