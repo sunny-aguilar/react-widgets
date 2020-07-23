@@ -25,8 +25,8 @@ const Search = () => {
   }, [term]);
 
   const renderedResults = results.map((result) => {
+    console.log(result)
     return (
-      console.log(result);
       <div key={result.pageid} className="item">
         <div className="right floated content">
           <a className="ui button" href={`https://en.wikipedia.org?curid=${results.pageid}`}>Go</a>
