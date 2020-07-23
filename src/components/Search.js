@@ -28,7 +28,7 @@ const Search = () => {
     return (
       <div key={result.pageid} className="item">
         <div className="right floated content">
-          <a className="ui button">Go</a>
+          <a className="ui button" href={``}>Go</a>
         </div>
         <div className="content">
           <div className="header">{result.title}</div>
