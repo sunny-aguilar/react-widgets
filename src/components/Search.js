@@ -33,7 +33,6 @@ const Search = () => {
       },800);
     }
 
-
     return () => {
       clearTimeout(timeoutId);
     };
