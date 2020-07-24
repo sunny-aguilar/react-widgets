@@ -6,6 +6,8 @@ const Search = () => {
   const [debouncedTerm, setDebouncedTerm] = useState(term);
   const [results, setResults] = useState([]); // initial value is empty array
 
+  // useEffect hook that takes two parameters: a function, and optional second param
+  // that determines when the function is run
   useEffect(() => {
     const timerId = setTimeout(() => {
       setDebouncedTerm(term);
@@ -32,9 +34,6 @@ const Search = () => {
     };
     search();
   }, [debouncedTerm]);
-
-  // useEffect hook that takes two parameters: a function, and optional second param
-  // that determines when the function is run
 
   const renderedResults = results.map((result) => {
     return (
