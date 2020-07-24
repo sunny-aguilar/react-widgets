@@ -27,7 +27,7 @@ const Search = () => {
     // }
 
     const timeoutId = setTimeout(() => {
-      if (term) {
+      if (term && !results.length) {
         search();
       }
     },800);
