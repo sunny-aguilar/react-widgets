@@ -22,7 +22,8 @@ export default () => {
   return (
     <div>
       {/* <Accordion items={items} /> */}
-      <Search />
+      {/* <Search /> */}
+      <Dropdown />
     </div>
   );
 };
