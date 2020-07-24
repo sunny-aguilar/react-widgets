@@ -17,12 +17,6 @@ const Search = () => {
   }, [term]);
 
   useEffect(() => {
-    
-  }, [debouncedTerm]);
-
-  // useEffect hook that takes two parameters: a function, and optional second param
-  // that determines when the function is run
-  useEffect(() => {
     // make GET request
     const search = async () => {
       const { data } = await axios.get("https://en.wikipedia.org/w/api.php", {
@@ -36,6 +30,12 @@ const Search = () => {
       });
       setResults(data.query.search);
     };
+  }, [debouncedTerm]);
+
+  // useEffect hook that takes two parameters: a function, and optional second param
+  // that determines when the function is run
+  useEffect(() => {
+    
 
     if (term && !results.length) {
       search();
