@@ -16,6 +16,10 @@ const Search = () => {
     };
   }, [term]);
 
+  useEffect(() => {
+    
+  });
+
   // useEffect hook that takes two parameters: a function, and optional second param
   // that determines when the function is run
   useEffect(() => {
