@@ -11,7 +11,9 @@ const Search = () => {
       setDebouncedTerm(term);
     }, 1000);
 
-    return () => {};
+    return () => {
+      clearTimeout(timerId);
+    };
   }, [term]);
 
   // useEffect hook that takes two parameters: a function, and optional second param
