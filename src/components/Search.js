@@ -31,11 +31,10 @@ const Search = () => {
           search();
         }
       },800);
+      return () => {
+        clearTimeout(timeoutId);
+      };
     }
-
-    return () => {
-      clearTimeout(timeoutId);
-    };
 
   }, [term]);
 
