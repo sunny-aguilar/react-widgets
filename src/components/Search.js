@@ -7,7 +7,9 @@ const Search = () => {
   const [results, setResults] = useState([]); // initial value is empty array
 
   useEffect(() => {
+    const timerId = setTimeout(() => {
 
+    }, 1000);
   }, [term]);
 
   // useEffect hook that takes two parameters: a function, and optional second param
