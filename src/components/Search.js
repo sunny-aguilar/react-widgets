@@ -35,20 +35,6 @@ const Search = () => {
 
   // useEffect hook that takes two parameters: a function, and optional second param
   // that determines when the function is run
-  useEffect(() => {
-    if (term && !results.length) {
-      search();
-    } else {
-      const timeoutId = setTimeout(() => {
-        if (term) {
-          search();
-        }
-      }, 800);
-      return () => {
-        clearTimeout(timeoutId);
-      };
-    }
-  }, [term]);
 
   const renderedResults = results.map((result) => {
     return (
