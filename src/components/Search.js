@@ -30,6 +30,7 @@ const Search = () => {
       });
       setResults(data.query.search);
     };
+    search();
   }, [debouncedTerm]);
 
   // useEffect hook that takes two parameters: a function, and optional second param
