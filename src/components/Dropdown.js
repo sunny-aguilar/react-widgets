@@ -1,3 +1,5 @@
+// hooks:
+// useState, useEffect, useRef
 import React, { useState, useEffect, useRef } from "react";
 
 const Dropdown = ({ options, selected, onSelectedChange }) => {
