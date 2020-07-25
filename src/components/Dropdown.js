@@ -12,7 +12,7 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
       if (ref.current.contains(even.target)) {
         return;
       }
-      console.log(event.target);
+
       setOpen(false);
     });
   });
