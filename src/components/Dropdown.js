@@ -9,7 +9,9 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
 
   useEffect(() => {
     document.body.addEventListener('click', (event) => {
-      if (ref.current.contains(even.target))
+      if (ref.current.contains(even.target)) {
+        return;
+      }
       console.log(event.target);
       setOpen(false);
     });
