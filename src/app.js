@@ -19,7 +19,7 @@ const items = [
   },
 ];
 
-// c
+// d
 const options = [
   {
     label: "The Color Red",
