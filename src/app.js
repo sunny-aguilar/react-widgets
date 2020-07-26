@@ -3,7 +3,7 @@ import Accordion from "./components/Accordion";
 import Search from "./components/Search";
 import Dropdown from "./components/Dropdown";
 
-// accordion state p
+// accordion state pa
 const items = [
   {
     title: "What is React?",
