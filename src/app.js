@@ -19,7 +19,7 @@ const items = [
   },
 ];
 
-// dro
+// drop
 const options = [
   {
     label: "The Color Red",
