@@ -19,7 +19,7 @@ const items = [
   },
 ];
 
-// dropdown state pa
+// dropdown state par
 const options = [
   {
     label: "The Color Red",
