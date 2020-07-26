@@ -32,7 +32,7 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
     );
   });
 
-  // return compo
+  // return compon
   return (
     <div ref={ref} className="ui form">
       <div className="field">
