@@ -19,7 +19,7 @@ const items = [
   },
 ];
 
-// dropdo
+// dropdow
 const options = [
   {
     label: "The Color Red",
