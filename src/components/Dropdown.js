@@ -2,7 +2,7 @@
 // useState, useEffect, useRef
 import React, { useState, useEffect, useRef } from "react";
 
-// s
+// se
 const Dropdown = ({ options, selected, onSelectedChange }) => {
   // state
   const [open, setOpen] = useState(false);
