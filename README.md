@@ -1,6 +1,7 @@
 ## React Widgets Using Functional Components and Hooks
 This project was created using React. Several widgets were created to demonstrate<br />
-the usecase for React hooks for functional components.<br />
+the usecase for React hooks for functional components. The components consist of<br />
+accordions, search capabilities using the Wikipedia API, and dropdown menu.<br />
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
