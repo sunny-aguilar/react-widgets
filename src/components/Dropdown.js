@@ -21,7 +21,7 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
 
     return () => {
       // clean up
-
+      document.body.removeEventListener("click", onBodyClick);
     };
   });
 
