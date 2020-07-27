@@ -5,23 +5,27 @@ import Dropdown from "./Dropdown";
 const options = [
   {
     label: "Afrikaans",
-    value: "af"
+    value: "af",
   },
   {
     label: "Arabic",
-    value: "ar"
+    value: "ar",
   },
   {
     label: "Hindi",
-    value: "hi"
-  }
+    value: "hi",
+  },
 ];
 
 const Translate = () => {
   // hooks
   const [language, setLanguage] = useState(options[0]);
 
-  return <div><Dropdown options={options} /></div>;
+  return (
+    <div>
+      <Dropdown options={options} />
+    </div>
+  );
 };
 
 export default Translate;
