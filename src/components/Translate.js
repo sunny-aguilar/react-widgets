@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Dropdown from "./Dropdown";
 
 const Translate = () => {
-  return <div>Translate</div>;
+  return <div><Dropdown /></div>;
 };
 
 export default Translate;
