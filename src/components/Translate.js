@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Dropdown from "./Dropdown";
 
-// options
+// options for menu
 const options = [
   {
     label: "Afrikaans",
@@ -18,7 +18,7 @@ const options = [
 ];
 
 const Translate = () => {
-  return <div><Dropdown /></div>;
+  return <div><Dropdown options={options} /></div>;
 };
 
 export default Translate;
