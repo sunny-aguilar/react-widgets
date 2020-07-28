@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Dropdown from "./Dropdown";
+import Convert from "./Convert";
 
 // Google Translate API Key: AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM
 // http://localhost:3000
@@ -8,11 +9,11 @@ import Dropdown from "./Dropdown";
 const options = [
   {
     label: "Spanish",
-    value: "es"
+    value: "es",
   },
   {
     label: "Dutch",
-    value: "nl"
+    value: "nl",
   },
   {
     label: "Afrikaans",
@@ -28,8 +29,8 @@ const options = [
   },
   {
     label: "Greek",
-    value: "el"
-  }
+    value: "el",
+  },
 ];
 
 const Translate = () => {
@@ -56,6 +57,9 @@ const Translate = () => {
         onSelectedChange={setLanguage}
         options={options}
       />
+      <hr />
+      <h3 className="ui header">Output</h3>
+      <Convert text={text} language={language} />
     </div>
   );
 };
