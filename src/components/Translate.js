@@ -20,9 +20,11 @@ const options = [
 const Translate = () => {
   // hooks
   const [language, setLanguage] = useState(options[0]);
+  const [text, setText] = useState("");
 
   return (
     <div>
+      <input />
       <Dropdown
         label="Select a Language"
         selected={language}
