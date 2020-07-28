@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Dropdown from "./Dropdown";
 
+// Google Translate API Key: AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM
+// http://localhost:3000
+
 // options for menu
 const options = [
   {
