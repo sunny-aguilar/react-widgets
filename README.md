@@ -3,7 +3,7 @@
 This project was created using React. Several widgets were created to demonstrate<br />
 the usecase for React hooks for functional components. The components consist of an<br />
 accordion, search capabilities using the Wikipedia API, a dropdown menu, and the.<br />
-language translation module using the Google Translate API<br />
+language translation module using the Google Translate API.<br />
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
