@@ -24,12 +24,14 @@ const Translate = () => {
 
   return (
     <div>
-      <input
-        value={text}
-        onChange={(e) => {
-          setText(e.target.value);
-        }}
-      />
+      <div>
+        <input
+          value={text}
+          onChange={(e) => {
+            setText(e.target.value);
+          }}
+        />
+      </div>
       <Dropdown
         label="Select a Language"
         selected={language}
