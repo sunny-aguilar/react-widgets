@@ -4,6 +4,10 @@ import Dropdown from "./Dropdown";
 // options for menu
 const options = [
   {
+    label: "Dutch",
+    value: "nl"
+  },
+  {
     label: "Afrikaans",
     value: "af",
   },
