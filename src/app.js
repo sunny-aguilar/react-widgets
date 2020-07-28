@@ -45,9 +45,6 @@ export default () => {
     <div>
       {/* <Accordion items={items} /> */}
       {/* <Search /> */}
-      <button onClick={() => setShowDropdown(!showDropdown)}>
-        Toggle Dropdown
-      </button>
       {/* toggle visibility of dropdown */}
       {showDropdown ? (
         <Dropdown
