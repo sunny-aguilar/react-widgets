@@ -46,13 +46,14 @@ export default () => {
       {/* <Accordion items={items} /> */}
       {/* <Search /> */}
       {/* toggle visibility of dropdown */}
-      {showDropdown ? (
+      {/* {showDropdown ? (
         <Dropdown
           selected={selected}
           onSelectedChange={setSelected}
           options={options}
         />
-      ) : null}
+      ) : null} */}
+      <Translate />
     </div>
   );
 };
