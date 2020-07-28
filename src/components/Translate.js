@@ -4,6 +4,10 @@ import Dropdown from "./Dropdown";
 // options for menu
 const options = [
   {
+    label: "Spanish",
+    value: "es"
+  },
+  {
     label: "Dutch",
     value: "nl"
   },
@@ -19,6 +23,10 @@ const options = [
     label: "Hindi",
     value: "hi",
   },
+  {
+    label: "Greek",
+    value: "el"
+  }
 ];
 
 const Translate = () => {
