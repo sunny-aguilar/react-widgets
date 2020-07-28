@@ -39,7 +39,6 @@ const options = [
 
 // return app to index.js
 export default () => {
-
   return (
     <div>
       {/* <Accordion items={items} /> */}
