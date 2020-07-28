@@ -36,7 +36,9 @@ const Convert = ({ language, text }) => {
     doTranslation();
   }, [language, debouncedText]);
   return (
-    <div><h1 className="ui header">{translated}</h1></div>
+    <div>
+      <h1 className="ui header">{translated}</h1>
+    </div>
   );
 };
 
